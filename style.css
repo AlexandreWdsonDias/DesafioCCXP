@@ -1,0 +1,132 @@
+body{
+    background-color:  #F3C61F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+header{
+    padding:15px;
+    display:grid;
+    grid-auto-flow: column;
+}
+
+#sec1{
+    display:grid;
+    grid-auto-flow: column;
+    margin-top: 5px;
+    margin-left: -15px;
+    grid-auto-columns: 50vw;
+}
+
+#desc{
+    text-align: center;
+    background-color: #514988;
+    color:#FFFFFF ;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 32px;
+    padding-bottom: 30px;   
+    height: 409px;
+}
+
+#titulo {
+    margin-top: 5px;
+    color:#F3C61F;
+    font-size: 38px;
+}
+#data{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#conteudo {
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#countdown{
+    display:grid;
+    grid-auto-flow: column;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-right: -15px;
+}
+
+.cd {
+    color:#514988;
+    font-size: 38px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#inter2{
+    background-color: #FFFFFF;
+    color:#E33881;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+#video {
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    background-color: #FFFFFF;
+    height: 10px;
+}
+
+#compre {
+    display:grid;
+    grid-auto-flow: column;
+    background-color: #FFFFFF;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 150px;
+}
+
+#ing1{
+    color: #F3C61F;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+button{
+    background: #514988;
+    border-radius: 20px;
+    color: #FFFFFF;
+    border: 0pt;
+    margin: 30px;
+    width:300px;
+    height:70px;
+    font-size: 30px;
+}
+
+input{
+    
+        background: #514988;
+        border-radius: 10px;
+        color: #FFFFFF;
+        border: 0pt;
+        margin: 30px;
+        width:300px;
+        height:70px;
+        font-size: 30px;
+    
+}
+
+button:hover{
+    background: #514988;
+    cursor:pointer;
+    color:#F3C61F;
+    
+}
+
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.card-selected{
+    border: 5px solid green;
+}
